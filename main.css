@@ -3,71 +3,68 @@ body{
 }
 
 #wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
   max-width: 400px;
+  justify-content: center;
+  align-items: center;
 }
 
 .calculator-value{
   width: 100%;
-  height: 100%;
   color: white;
+  font-size: medium;
+  margin: 0%;
+  background-color: black;
 }
 
-.wrapper{
-  display:flex;
-  flex-direction:row;
-  flex-wrap: wrap;
-}
 
 .clear-button{
   width: 50%;
   color: black;
-  height: 15%;
+  font-size: large;
+  background-color: #d8d9db;
 }
 
 .backspace{
   width: 24%;
   color: black;
   height: 15%;
+  font-size: large;
+  margin: 0%;
+  background-color: #d8d9db;
 }
 
-.divide{
+.math{
   width: 24%;
   height: 15%;
-}
-
-.multiply{
-  width: 24%;
   color: white;
-  height: 15%;
+  font-size: large;
+  margin:0%;
+  background-color: orange;
 }
 
-.minus{
-  width: 24%;
-  color: white;
-  height: 15%;
-}
+
+
+
 
 .number{
   width: 24%;
   color: black;
   height: 15%;
+  font-size: large;
+  margin: 0%;
+  background: #d8d9db;
 }
 
-.add{
-  width: 24%;
-  color: white;
-  height: 15%;
-}
-
-.equal{
-  width: 24%;
-  color: white;
-  height: 15%;
-}
 
 .number-zero{
   width: 75%;
   color: black;
   height: 15%;
+  margin: 0%;
+  background-color: #d8d9db;
+  font-size: large;
 
 }
