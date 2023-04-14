@@ -3,12 +3,14 @@ body{
 }
 
 #wrapper{
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   flex-wrap:wrap;
   max-width: 400px;
   height: 700px;
   justify-content: center;
+  margin:auto;
+  align-content: stretch;
   
 }
 
@@ -19,6 +21,15 @@ body{
   font-size: medium;
   margin: 0%;
   background-color: black;
+
+}
+
+.calculator-value:hover{
+  background-color: grey;
+}
+
+.calculator-value:active{
+  background-color: khaki;
 }
 
 
@@ -29,7 +40,14 @@ body{
   font-size: large;
   background-color: #d8d9db;
   margin: 0%;
-  align-self: stretch;
+
+}
+.clear-button:hover{
+  background-color: grey;
+}
+
+.clear-button:active{
+  background-color: khaki;
 }
 
 .backspace{
@@ -39,6 +57,12 @@ body{
   font-size: large;
   margin: 0%;
   background-color: #d8d9db;
+}
+.backspace:hover{
+  background-color: grey;
+}
+.backspace:active{
+  background: khaki;
 }
 
 .math{
@@ -50,9 +74,13 @@ body{
   background-color: orange;
 }
 
+.math:hover{
+  background-color: grey;
+}
 
-
-
+.math:active{
+  background-color: khaki;
+}
 
 .number{
   width: 24%;
@@ -63,7 +91,12 @@ body{
   background: #d8d9db;
 }
 
-
+.number:hover{
+  background-color: grey;
+}
+.number:active{
+  background: khaki;
+}
 .number-zero{
   width: 75%;
   height: 15%;
@@ -72,4 +105,12 @@ body{
   background-color: #d8d9db;
   font-size: large;
 
+}
+
+.number-zero:hover{
+  background-color: grey;
+}
+
+.number-zero:active{
+  background-color:khaki;
 }
