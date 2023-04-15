@@ -3,15 +3,20 @@ body{
 }
 
 #wrapper{
-  display: flex;
-  flex-direction: row;
-  flex-wrap:wrap;
   max-width: 400px;
   height: 700px;
   justify-content: start;
-  margin:auto;
   align-items: stretch;
+  margin: auto;
   
+}
+
+.calculator-buttons{
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .calculator-value{
@@ -19,9 +24,9 @@ body{
   height: 8%;
   color: white;
   font-size: x-large;
-  margin: 0%;
   background-color: black;
   text-align: right;
+  padding: 25px;
 
 }
 
@@ -40,8 +45,7 @@ body{
   color: black;
   font-size:x-large;
   background-color: #d8d9db;
-  margin: 0%;
-
+  padding: 25px;
 }
 .clear-button:hover{
   background-color: grey;
@@ -52,11 +56,11 @@ body{
 }
 
 .backspace{
-  width: 24%;
+  width: 25%;
   color: black;
   height: 15%;
   font-size: x-large;
-  margin: 0%;
+  padding:25px;
   background-color: #d8d9db;
 }
 .backspace:hover{
@@ -67,11 +71,11 @@ body{
 }
 
 .math{
-  width: 24%;
+  width: 25%;
   height: 15%;
   color: white;
   font-size: x-large;
-  margin:0%;
+  padding:25px;
   background-color: orange;
 }
 
@@ -84,11 +88,11 @@ body{
 }
 
 .number{
-  width: 24%;
+  width: 25%;
   color: black;
   height: 15%;
   font-size: x-large;
-  margin: 0%;
+  padding:25px;
   background: #d8d9db;
 }
 
@@ -102,7 +106,7 @@ body{
   width: 75%;
   height: 15%;
   color: black;
-  margin: 0%;
+  padding:25px;
   background-color: #d8d9db;
   font-size: x-large;
 
