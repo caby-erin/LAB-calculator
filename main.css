@@ -1,5 +1,7 @@
 body{
-  background-color: white;
+  padding: 0;
+  margin: 0;
+  background-color: grey;
 }
 
 #wrapper{
@@ -21,14 +23,23 @@ body{
 
 .calculator-value{
   width: 100%;
+  height: 100px;
+  color: white;
+  background-color: black;
+}
+
+
+
+/*.calculator-value{
+  width: 100%;
   height: 8%;
   color: white;
   font-size: x-large;
   background-color: black;
-  text-align: right;
   padding: 25px;
-
+  text-align: right;
 }
+*/
 
 .calculator-value:hover{
   background-color: grey;
@@ -118,4 +129,17 @@ body{
 
 .number-zero:active{
   background-color:khaki;
+}
+
+form input{
+  width: 360px;
+  height: 80px;
+  border:none;
+  font-size:large;
+  padding: 20px;
+  color: white;
+  background-color: black;
+  text-align: right;
+  pointer-events: none;
+
 }
